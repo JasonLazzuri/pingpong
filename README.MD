@@ -14,7 +14,7 @@ _{Open the Webpage and click in the box, type in a number between 1 to 10000, th
 
 ## Known Bugs
 
-_{The input box does not take "," at this time. If you input a comma it will not work. That is the only known bug I know at the moment, if you find any more please feel free to contact me.}_
+_{The input box does not take "," at this time. If you input a comma it will not work. The first "3" is not taken out- instead the word ping is added, I'm not sure why.Those are the only known bugs I know at the moment, if you find any more please feel free to contact me.}_
 
 ## Support and contact details
 
