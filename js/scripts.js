@@ -34,13 +34,16 @@ $(document).ready(function() {
 
     var text = $("#userText").val();
     var input = JSON.stringify(text).slice(1,text.length+1);
+    console.log(input);
     var myArray = [];
 
-    for(var i = 1; i <= input; i++){
-        myArray.push(i)
 
-    if ((i % 3 === 0) && ((i % 5 !== 0)||(i % 15 !==0))){
-      alert("three");
+
+    for(var i = 1; i <=input; i++){
+        myArray.push(i);
+    if((i % 3 === 0) && ((i % 5 !== 0)||(i % 15 !==0))){
+      myArray[i] = pinged;
+      console.log(myArray);
     }else if ((i % 5 === 0) && ((i % 3 !== 0)||(i % 15 !==0))){
       alert("five")
     }else if (i % 15 === 0){
@@ -48,7 +51,7 @@ $(document).ready(function() {
     }
 
 
-
+// var joined = myArray.join(' ');
 }$('#result').text(myArray);
   })
 });
