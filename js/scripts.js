@@ -39,11 +39,12 @@ $(document).ready(function() {
     for(var i = 1; i <= input; i++){
         myArray.push(i)
 
-    if(i % 3 === 0){
-      alert("hello");
-      console.log(myArray[i]);
-    }else if (i % 5 === 5) {
-      alert("hello")
+    if (i % 3 === 0){
+      alert("three");
+    }else if (i % 5 === 0){
+      alert("five")
+    }else if (i % 15 ===0){
+      alert("fifteen")
     }
 
 
