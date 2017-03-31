@@ -35,7 +35,7 @@ $(document).ready(function() {
     var text = $("#userText").val();
     var input = JSON.stringify(text).slice(1,text.length+1);
     console.log(input);
-    var myArray = [];
+    var myArray = [ ];
 
 
 
@@ -45,9 +45,9 @@ $(document).ready(function() {
       myArray[i] = pinged;
       console.log(myArray);
     }else if ((i % 5 === 0) && ((i % 3 !== 0)||(i % 15 !==0))){
-      alert("five")
+      myArray[i] = ponged;
     }else if (i % 15 === 0){
-      alert("fifteen")
+      myArray[i] = pp;
     }
 
 
