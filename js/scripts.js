@@ -1,29 +1,3 @@
-  // var myArray = [];
-  // var userInput = function(myArray){
-  //   for(var i = 0; i<=input; i++){
-  //     myArray.push(i);
-  //
-  // }
-  // };
-  // userInput(myArray);
-  //
-  //
-
-
-
-
-
-
-//   if(myArray.charAt(i) % 3 === 0)
-//   replace i w/ pinged
-//   else if(myArray.charAt(i) % 5 === 0)
-//   replace i w/ ponged
-//   else (myArray.charAt(i) % 15 === 0)
-//   replace i w/ pp
-// }
-
-
-
 $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
@@ -50,14 +24,12 @@ $(document).ready(function() {
     }else if (input>=10000){
       alert("Woah! Thats a lot of numbers! Try something smaller");
       break
-    // } else if (input===(/,/)){
-    //   alert("No Commas Please");
     }
 
 
 
 
 // var joined = myArray.join(' ');
-}$('#result').text("<li>"myArray"</li>").show();
+}$('#result').text(myArray).show();
   })
 });
