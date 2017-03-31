@@ -47,17 +47,17 @@ $(document).ready(function() {
       myArray[i] = ponged;
     }else if (i % 15 === 0){
       myArray[i] = pp;
-    }else if (input>10000){
+    }else if (input>=10000){
       alert("Woah! Thats a lot of numbers! Try something smaller");
       break
     // } else if (input===(/,/)){
     //   alert("No Commas Please");
-    // }
+    }
 
 
 
 
 // var joined = myArray.join(' ');
-}$('#result').text(myArray).show();
+}$('#result').text("<li>"myArray"</li>").show();
   })
 });
