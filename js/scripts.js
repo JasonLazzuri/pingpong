@@ -1,24 +1,53 @@
+  // var myArray = [];
+  // var userInput = function(myArray){
+  //   for(var i = 0; i<=input; i++){
+  //     myArray.push(i);
+  //
+  // }
+  // };
+  // userInput(myArray);
+  //
+  //
+
+
+
+
+
+
+//   if(myArray.charAt(i) % 3 === 0)
+//   replace i w/ pinged
+//   else if(myArray.charAt(i) % 5 === 0)
+//   replace i w/ ponged
+//   else (myArray.charAt(i) % 15 === 0)
+//   replace i w/ pp
+// }
+
+
+
 $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
 
+    var pinged = "ping"
+    var ponged = "pong"
+    var pp = "ping-pong"
 
+    var text = $("#userText").val();
+    var input = JSON.stringify(text).slice(1,text.length+1);
     var myArray = [];
-    var number = JSON.stringify(3);
-    var ping = "ping";
 
-    var userInput = function(myArray){
-      for(var i = 0; i<= number; i++){
-        myArray.push(i);
-      }
-      if (number % 3 === 0){
-      var pinged = (myArray.charAt(3));
-      console.log(pinged)
+    for(var i = 1; i <= input; i++){
+        myArray.push(i)
 
-    }return myArray;
+    if(i % 3 === 0){
+      alert("hello");
+      console.log(myArray[i]);
+    }else if (i % 5 === 5) {
+      alert("hello")
     }
-    userInput(myArray);
 
 
 
+}$('#result').text(myArray);
+  })
 });
