@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This Webpage will ask you to input a number (between 1 and 10000) and it will first put that number into an array. Then it will check the array to see if any numbers are divisible by 3, and those numbers will change to the word "ping". It will then look for numbers that are divisible by 5 and change those numbers to the word "pong". Lastly it will look for letters divisible by 15 and replace those numbers with "ping-pong" [link](https://jasonlazzuri.github.io/pingpong/) }_
+_{This Webpage will ask you to input a number (between 1 and 10000) and it will first put that number into an array. Then it will check the array to see if any numbers are divisible by 3, and those numbers will change to the word "ping". It will then look for numbers that are divisible by 5 and change those numbers to the word "pong". Lastly it will look for letters divisible by 15 and replace those numbers with "ping-pong" [link](https://github.com/JasonLazzuri/pingpong) }_
 
 ## Setup/Installation Requirements
 
