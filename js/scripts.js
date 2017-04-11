@@ -21,6 +21,6 @@ $(document).ready(function() {
     var userInput = $("#userText").val();
     var result = name(userInput);
 
-    $('#results').text(result).show();
+    $('#result').text(result).show();
   });
 });
